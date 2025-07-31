@@ -74,7 +74,7 @@ public class BoardController {
 				e.printStackTrace();
 			}
 			// 4. DB에 저장될 경로
-			imgPath = "/uploads/"+fileName;
+			imgPath = "/homw/git/uploads/"+fileName;
 		}
 		
 		BoardEntity board = new BoardEntity();
